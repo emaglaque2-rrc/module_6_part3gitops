@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: studentportfolio
-          image: ghcr.io/emaglaque2-rrc/module_6_part3-studentportfolio:e28297ecbc9ddcb6e7f8519b02e084ad265ebb47
+          image: ghcr.io/emaglaque2-rrc/module_6_part3-studentportfolio:536e5bb959dee4796159f07a1ba57290c69a3ecb
           imagePullPolicy: IfNotPresent
           ports:
             - name: http

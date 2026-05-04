@@ -18,7 +18,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: syncer
-          image: ghcr.io/emaglaque2-rrc/module_6_part3-syncer:e28297ecbc9ddcb6e7f8519b02e084ad265ebb47
+          image: ghcr.io/emaglaque2-rrc/module_6_part3-syncer:536e5bb959dee4796159f07a1ba57290c69a3ecb
           env:
             - name: SRC_URI
               value: mongodb://mongo-backend:27017
